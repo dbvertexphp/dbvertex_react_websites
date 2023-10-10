@@ -1,0 +1,102 @@
+.logo_header{
+    padding-left: 30px;
+}
+.header_option{
+    background: transparent;
+    color: var(--color-text-primary);
+    cursor: pointer;
+    border: 0;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    margin-right: 55px;
+    font-size: 23px;
+    font-weight: 600;
+
+}
+.header_option_socialicon{
+    background: transparent;
+    color: var(--color-text-primary);
+    cursor: pointer;
+    border: 0;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    margin-right: 25px;
+    font-size: 23px;
+    font-weight: 600;  
+}
+.header_option:hover, .header_option_socialicon:hover {
+    color: #e44c3a;
+  }
+.close_button{
+    color:#e44c3a !important;  
+}
+.Header_navbar__cross_icon{
+    width: 30px;
+}
+.Header_navbar_icon{
+    background-color: #fff;
+    width: 40px;
+}
+button.navbar-toggler:focus,
+button.navbar-toggler:active {
+  outline: none !important;
+  border: none !important;
+}
+
+.banner {
+    color: #fff; /* Set the text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+    position: absolute;
+    width: 100%;
+  }
+  
+  .banner-content {
+    text-align: center;
+    flex: 1; /* Take up available space */
+    max-width: 60%; /* Limit the width to a reasonable size */
+    position: absolute;
+    
+  }
+  
+  .banner h1 {
+    font-size: 2em; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add spacing between text and buttons */
+  }
+  
+  .banner-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px; /* Add spacing between buttons */
+  }
+  
+  .banner-buttons button {
+    background: #e44c3a; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .banner-content {
+      max-width: 100%; /* Expand to full width on smaller screens */
+      text-align: center;
+    }
+  
+    .banner-buttons {
+      justify-content: center; /* Center buttons on smaller screens */
+    }
+  }
+
+  .banner_img{
+    width: 100%;
+  }
+  
